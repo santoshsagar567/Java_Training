@@ -1,0 +1,298 @@
+✅ 1. Java Operators (5 Questions)
+
+1. Arithmetic Basics
+➤ Write a program to accept two numbers and print their sum, difference, product, division, and remainder.
+➤ Purpose: Tests your understanding of + - * / % and precedence.
+
+
+2. Pre- vs Post-Increment
+➤ Given a line like int y = ++x + x++ + --x;, calculate the final value and explain why.
+➤ Purpose: Checks understanding of how prefix (++x) and postfix (x++) operators work.
+
+
+3. Bitwise Swapper
+➤ Swap two numbers using XOR: a = a ^ b; b = a ^ b; a = a ^ b;
+➤ Purpose: Tests bitwise operator knowledge, often asked in interviews.
+
+
+4. Compound Assignment Pitfall
+➤ Evaluate an expression like a *= b + 3;
+➤ Purpose: Checks if you know precedence and grouping. This is interpreted as a = a * (b + 3).
+
+
+5. Ternary Chain Grading
+➤ Convert if-else for assigning grades into a chained ternary operator.
+➤ Purpose: Understanding ternary (?:) logic and chaining.
+
+
+
+
+---
+
+✅ 2. Java Strings (7 Questions)
+
+6. Reverse Words
+➤ Given "Java is fun", output "fun is Java".
+➤ Purpose: String manipulation without built-in helpers.
+
+
+7. Anagram Checker
+➤ Check if two strings are anagrams ("listen" and "silent").
+➤ Purpose: Requires sorting, frequency counting, or HashMaps.
+
+
+8. First Non-Repeating Char
+➤ Return the first character that doesn’t repeat.
+➤ Purpose: Mastery of string traversal and hashing.
+
+
+9. String Intern Demo
+➤ Prove s1 == s2 for strings created via literals vs new String().
+➤ Purpose: Understanding of Java string pool and memory management.
+
+
+10. Run-Length Encoding
+➤ Convert "aaabb" to "a3b2", and decode back.
+➤ Purpose: Real-world compression, logic-building.
+
+
+11. Custom Split
+➤ Create a method to split a string by a character (e.g., ",") without using .split().
+➤ Purpose: Handling string parsing manually.
+
+
+12. Palindrome Sentence
+➤ Check if "A man, a plan, a canal: Panama" is a palindrome.
+➤ Purpose: Remove non-alphabetic chars, ignore case.
+
+
+
+
+---
+
+✅ 3. Java Math (5 Questions)
+
+13. Perfect Number
+➤ A perfect number equals the sum of its proper divisors (e.g., 6 = 1+2+3).
+➤ Purpose: Algorithm + loop + condition practice.
+
+
+14. Next Prime Number
+➤ Given a number n, print the next prime > n.
+➤ Purpose: Prime checking logic in a loop.
+
+
+15. Fast Exponentiation
+➤ Write an efficient power function: pow(x, n) using divide-and-conquer.
+➤ Purpose: Optimize recursion.
+
+
+16. Quadratic Roots
+➤ Solve ax² + bx + c = 0 and handle real vs complex roots.
+➤ Purpose: Use Math.sqrt(), apply formulas.
+
+
+17. GCD and LCM
+➤ For two integers, find GCD (using Euclid’s algorithm) and LCM.
+➤ Purpose: Classic math logic.
+
+
+
+
+---
+
+✅ 4. Java Booleans (4 Questions)
+
+18. Truth Table
+➤ Print all combinations of a, b and results of a && b, a || b, !a, etc.
+➤ Purpose: Shows boolean understanding.
+
+
+19. Short-Circuit Demo
+➤ Show how if (a != 0 && b/a > 1) avoids divide-by-zero.
+➤ Purpose: Logical vs bitwise (&, |) evaluation.
+
+
+20. Light Toggle Puzzle
+➤ 100 bulbs toggled on/off in rounds. Who ends up ON? (Only perfect squares!)
+➤ Purpose: Logical thinking, loops, and conditions.
+
+
+21. Voting Eligibility
+➤ Use a boolean method to check if someone can vote.
+➤ Purpose: Basic if + boolean return practice.
+
+
+
+
+---
+
+✅ 5. If-Else Conditions (6 Questions)
+
+22. Leap Year
+➤ Check if a year is leap (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)).
+➤ Purpose: Conditionals.
+
+
+23. Triangle Type
+➤ Based on 3 sides, determine triangle type or invalid triangle.
+➤ Purpose: Condition combination logic.
+
+
+24. BMI Calculator
+➤ Given height & weight, return BMI category.
+➤ Purpose: Math + if-else decision making.
+
+
+25. ATM Note Dispenser
+➤ Break an amount into minimal number of currency notes.
+➤ Purpose: Greedy logic application.
+
+
+26. Number to Words (0-99)
+➤ Convert 45 → “Forty-Five”
+➤ Purpose: Multiple if/else or switch handling.
+
+
+27. Grading Curve
+➤ Convert score (0-100) to letter grade (A+/A/B/C etc).
+➤ Purpose: Nested conditions.
+
+
+
+
+---
+
+✅ 6. Switch-Case (4 Questions)
+
+28. Month Days
+➤ Use switch to return the number of days in a month (handle leap Feb).
+➤ Purpose: Decision making.
+
+
+29. Mini Calculator
+➤ + - * / % using switch.
+➤ Purpose: Practical control structure use.
+
+
+30. Weekday Name Mapper
+➤ 1 → Monday, 2 → Tuesday...
+➤ Purpose: Simple mapping using switch-case.
+
+
+31. Traffic Light
+➤ switch using arrow syntax (Java 14+): "red" → stop", "green" → go"
+➤ Purpose: Java 14+ feature check.
+
+
+
+
+---
+
+✅ 7. Loops – for, while (7 Questions)
+
+32. Multiplication Table Grid
+➤ Print 1–12 times table as a grid.
+➤ Purpose: Nested loops, formatting.
+
+
+33. Fibonacci Up to N
+➤ Print all Fibonacci numbers less than or equal to N.
+➤ Purpose: Loop logic.
+
+
+34. Digit Sum
+➤ Keep summing digits until one digit remains (987 → 9+8+7=24 → 2+4=6).
+➤ Purpose: Loop and math logic.
+
+
+35. Star Pyramid Pattern
+➤ Build pyramid using *.
+➤ Purpose: Loop + formatting.
+
+
+36. Collatz Conjecture
+➤ For any number n: n → n/2 if even, 3n+1 if odd, until 1.
+➤ Purpose: Interesting loop logic.
+
+
+37. Guessing Game
+➤ Ask user to guess a random number within limited tries.
+➤ Purpose: Loop + Scanner + randomness.
+
+
+38. Prime Sieve
+➤ Print all primes ≤ 10000 using Sieve of Eratosthenes.
+➤ Purpose: Efficient loop logic.
+
+
+
+
+---
+
+✅ 8. Arrays (6 Questions)
+
+39. Rotate Array
+➤ Rotate an array k steps to the right.
+➤ Purpose: Array manipulation.
+
+
+40. Second Largest Unique
+➤ Find 2nd largest without sorting (handle duplicates).
+➤ Purpose: Logic building.
+
+
+41. Monotonic Array
+➤ Check if array is always increasing or decreasing.
+➤ Purpose: Traversal + condition.
+
+
+42. Matrix Transpose
+➤ Flip rows and columns in a 2D array.
+➤ Purpose: 2D array handling.
+
+
+43. Target Pair Sum
+➤ Print pairs in array that sum to a target.
+➤ Purpose: Nested loops / hashing.
+
+
+44. Spiral Matrix Print
+➤ Print 2D matrix elements in spiral order.
+➤ Purpose: Complex loop + bounds tracking.
+
+
+
+
+---
+
+✅ 9. Java Methods (6 Questions)
+
+45. Overloaded area()
+➤ Write multiple area() methods for different shapes.
+➤ Purpose: Method overloading.
+
+
+46. Pass-by-Value Proof
+➤ Show that changes to method parameters don’t affect original values (unless object reference).
+➤ Purpose: Java memory model.
+
+
+47. Recursive Binary Search
+➤ Implement binary search recursively.
+➤ Purpose: Recursion + array search.
+
+
+48. Stats with Varargs
+➤ min, max, avg from variable-length arguments.
+➤ Purpose: Varargs, aggregation logic.
+
+
+49. Method Reference Sort
+➤ Sort list of custom objects using method references.
+➤ Purpose: Java 8+ skills, functional style.
+
+
+50. Generic Swap
+➤ Swap two elements in a generic array.
+➤ Purpose: Generics + array handling.
