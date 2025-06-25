@@ -6,7 +6,7 @@ public class CheckFrequencyofChar {
     public static void main (String [] args){
 
         String Str;
-        int count = 0;
+        int count = 1;
 
         Scanner sc = new Scanner(System.in);
 
@@ -23,10 +23,11 @@ public class CheckFrequencyofChar {
                     count = count +1;
                 }
                 else {
-                    count = 1;
+                    continue;
                 }
             }
             System.out.println("Count of "+Str.charAt(i)+" : " +count);
+            count = 1;
         }
 
         //System.out.println("Count of Vowels: "+count);
