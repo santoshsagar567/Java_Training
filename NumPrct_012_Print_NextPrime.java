@@ -24,16 +24,24 @@ public class NumPrct_012_Print_NextPrime {
         System.out.println("Enter a Number :");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        System.out.println("Prime Numbers (up to 20) after the number "+num+" are :");
+        /*System.out.println("Prime Numbers (up to 20) after the number "+num+" are :");
         //int j = num+1;
         for (int j= num+1; j<=20; j++){
-            if (checkPrime(j)){
-                System.out.print(j+" ");
-                //break; --> to print only next 1 prime number
+            if (checkPrime(j)) {
+                System.out.print(j + " ");
             }
+        }*/
 
+        // --- To print only next 1 prime number ---
+        System.out.println("The next Prime Number after the number "+num+" is :");
+
+        for (int j= num+1; j>0; j++){
+            if (checkPrime(j)) {
+                System.out.print(j);
+                break;
+            }
         }
-
+         //*/
 
     }
 }
