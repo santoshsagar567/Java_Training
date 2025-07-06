@@ -27,7 +27,7 @@ public class Tst01_037_GuessingGame {
         System.out.println("You have " + k + " attempts to guess the correct number.");
 
         Scanner sc = new Scanner(System.in);
-        int num = 1 + (int) (100 * Math.random());
+        int num = (int) (100 * Math.random());
         //System.out.println(num);
 
         for (int i = 1; i <= k; i++) {
