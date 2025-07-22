@@ -4,17 +4,17 @@ import java.util.Scanner;
 public class ArrayPrct_BinarySearch2 {
 
     /* Below is the Algorithm designed for Binary Search:
-        Start
-        Take input array and Target
-        Initialise start = 0 and end = (array size -1)
-        Intialise mid variable
-        mid = (start+end)/2
-        if array[ mid ] == target then return mid
-        if array[ mid ] < target then start = mid+1
-        if array[ mid ] > target then end = mid-1
-        if start<=end then goto step 5
-        return -1 as target not found
-        Exit
+        1. Start
+        2. Take input array and Target
+        3. Initialise start = 0 and end = (array size -1)
+        4. Intialise mid variable
+        5. mid = (start+end)/2
+        6. if array[ mid ] == target then return mid
+        7. if array[ mid ] < target then start = mid+1
+        8. if array[ mid ] > target then end = mid-1
+        9. if start<=end then goto step 5
+        10. return -1 as target not found
+        11. Exit 
     */
     public static int binarySearch(int a[], int start, int end, int x){
 
